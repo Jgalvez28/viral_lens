@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.header{
+    background-color: #D3DAE4;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 60px 60px 60px 60px;
+    height: 900px;
+    box-shadow: 0 0 15px black;
+    border-radius: 10px;
+}
+
+.header-figure{
+    /* margin: 0 0 0 30px;
+    width: 400px; */
+    
+}
+
+.header-figure img{
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px black;
+}
+
+.header-container_right{
+    width: 400px;
+    
+}
+
+.header-subtitle{
+    margin: 0 0 20px 0;
+    
+}
+
+.header-title{
+    margin: 0 0 20px 0;
+}
+
+.header-details{
+    margin: 0 0 20px 0;
+    color: grey;
+}
+
+.header-off{
+    margin: 0 0 20px 0;
+    font-weight: 700;
+}
+
+.advantages{
+    padding: 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.advantage{
+    margin: 0 20px 40px 0;
+    width: 480px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: #d3ebfa;
+    box-shadow: 0 0 15px black;
+}
+
+.advantage-container_image{
+    width: inherit;
+    margin: 0;
+    height: 200px;
+}
+
+.advantage-image{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+.advantage-down{
+    margin: 20px 40px;
+    background-color: white;
+    margin-top: -40px;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.contact{
+    /* border: 1px solid red; */
+    display: flex;
+    background-color: rgb(131, 207, 207);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-form{
+    /* border: 1px solid #c1c1f1; */
+    margin-left: 35px;
+}
+
+.contact-form input{
+    border-color: gray;
+    border-style: solid;
+    padding: 5px 5px 5px 30px;
+    border-radius: 5px;
+    background-image: url(../img/icono-correo.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    backface-visibility: center;
+    outline: none;
+}
+
+.contact-form button{
+    display: block;
+    margin-top: 10px;
+}
+
+.redes{
+    display: flex;
+    /* border: 1px solid blue; */
+}
+
+.redes-link{
+    /* border: 1px solid red; */
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.redes-link.github{
+    background-image: url(../img/Icono-github.png);
+    background-size: 50px;
+}
+.redes-link.facebook{
+    background-image: url(../img/icono-de-facebook.png);
+    background-size: 50px;
+}
+.redes-link.instagram{
+    background-image: url(../img/Icono-instagram.png);
+    background-size: 50px;
+}
+.redes-link.twiter{
+    background-image: url(../img/Icono-twiter.png);
+    background-size: 50px;
+}
+
+.contact-title{
+    margin: 0;
+}
+
+
+
+.footer{
+    background-color: #5c6e91;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 60px;
+}
+
+.footer-container_left{
+    display: flex;
+    align-items: center;
+}
+
+.footer-container_left img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.footer-container_left figure{
+    margin: 0;
+}
